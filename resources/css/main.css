@@ -54,7 +54,7 @@ video {
     max-width:  100%;
 }
 img {
-        max-width: 100%
+    max-width: 100%
 }
 
 
@@ -63,7 +63,13 @@ img {
 
 
 
-/*-------------------------LAYOUT*/
+/*-------------------------LAYOUTS*/
+.layout-wide{
+    max-width: var(--area-wide)
+    
+}
+
+
 
 /*--------------------------HEADER*/
 
