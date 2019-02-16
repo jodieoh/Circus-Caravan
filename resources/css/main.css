@@ -70,9 +70,12 @@ img {
     padding-right: var(--padder);
 
     margin-bottom: var(--spacer-large);
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-
+ 
 
 /*--------------------------HEADER*/
 
