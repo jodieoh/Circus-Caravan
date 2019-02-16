@@ -140,7 +140,7 @@ label {
     background-color: var(--alternative-bg-color);
     font-family: var(--font-heading);
     color: var(--alternative-text-color);
-    padding: var(var(--spacer);
+    padding: var(--spacer);
     min-width: 200px;
     margin-top: var(--spacer);
     text-transform: uppercase;
