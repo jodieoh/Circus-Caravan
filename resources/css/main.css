@@ -84,7 +84,21 @@ img {
 
 header {
     background-color: var(--alternative-bg-color);
+    padding-top: var(--spacer)
 }
+
+.logo-wrapper { 
+    width: 20%;
+    float: left;
+}
+
+.site_title {
+    width: 80%
+}
+
+
+
+
 /* ------------------------NAVIGATION*/
 
 /*-------------------------FOOTER*/
