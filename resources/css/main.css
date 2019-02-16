@@ -45,14 +45,13 @@
 /*--------------------------HEADER*/
 
 header {
-    background-color: var(--alternative-bg-colour);
-
+    background-color: var(--alternative-bg-color);
 }
 /* ------------------------NAVIGATION*/
 
 /*-------------------------FOOTER*/
 footer {
-    background-color: var(--alternative-bg-colour);
+    background-color: var(--alternative-bg-color);
 }
 /*-------------------------MODULES*/
 
