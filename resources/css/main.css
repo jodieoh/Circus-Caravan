@@ -75,7 +75,10 @@ img {
 
 }
 
- 
+.layout-full-width { 
+    margin-bottom: var(--spacer-large);
+    width: 100%
+}
 
 /*--------------------------HEADER*/
 
