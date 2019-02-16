@@ -115,6 +115,38 @@ header .layout-wide {
 footer {
     background-color: var(--alternative-bg-color);
 }
+
+.footer-subscribe {
+    background-color: var(--alternative-text-color);
+    padding-top: var(--spacer-large);
+    padding-bottom: var(--spacer-large);
+    text-align: center;
+    }
+
+.footer-notices { 
+    padding-top: var(--spacer);
+    padding-bottom: var(--spacer);
+    color: var(--alternative-text-color);
+    text-align: center;
+}
+ 
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 30px;
+    background-color: var(--alternative-bg-color);
+    font-family: var(--font-heading);
+    color: var(--alternative-text-color);
+    padding: var(var(--spacer);
+    min-width: 200px;
+    margin-top: var(--spacer);
+    text-transform: uppercase;
+    border: none;
+    }
+
 /*-------------------------MODULES*/
 
 
