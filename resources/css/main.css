@@ -28,7 +28,7 @@
     --spacer-large: 80px;
     --transition-time: 0.3s;
   
-    --font-size-site-title: 32px;
+    --font-size-site-title: 32px (54px);
     --font-size-page-title: 40px;
     --font-size-section-title: 30px; 
     --font-size-sub-title: 24px;
@@ -87,6 +87,15 @@ h3 {
 }
 h4 {
     font-size:var(--font-size-heading-small);
+}
+
+a{ 
+    color: var(--link-color);
+
+}
+
+a:hover { color: var(--strong-text-color);
+
 }
 
 
