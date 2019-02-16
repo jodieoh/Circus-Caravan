@@ -65,8 +65,11 @@ img {
 
 /*-------------------------LAYOUTS*/
 .layout-wide{
-    max-width: var(--area-wide)
-    
+    max-width: var(--area-wide);
+    padding-left: var(--padder);
+    padding-right: var(--padder);
+
+    margin-bottom: var(--spacer-large);
 }
 
 
