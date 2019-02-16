@@ -33,6 +33,8 @@
    
     --area-wide: 1200px;
     --area-narrow: 800px;
+
+    --font-heading: Georgia, Serif, 
   }
 
 
@@ -92,10 +94,18 @@ header {
     float: left;
 }
 
-.site_title {
-    width: 80%
+.site-title {
+    width: 80%;
+    float: right;
+    color: var(--alternative-text-color);
+    font-family: var(--font-heading);
+    font-size: var(--font-size-site-title);
+    text-align: right;
 }
 
+header .layout-wide { 
+    overflow: hidden;
+}
 
 
 
