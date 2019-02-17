@@ -170,7 +170,9 @@ header .layout-wide {
     padding-top: var(--padder);
     padding-bottom: var(--padder);
     background-color: var(--alternative-bg-color);
-    color: var(--alternative-text-color)
+    color: var(--alternative-text-color);
+    border: none;
+    border-top: 1px solid black;
 }
 /*-------------------------FOOTER*/
 footer {
