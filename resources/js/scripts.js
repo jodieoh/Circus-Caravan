@@ -1,18 +1,17 @@
 cssVars();
 
-//mobile nav, if the attribute  of aria expanded is false on that element change it to true. , 
+// mobile nav 
 
-$ ('.nav-prompt').click(function() {    
-    
+$('.nav-prompt').click(function () {
+
     if ($('.nav-inner').attr('aria-expanded') == 'false') {
-        
-    $('.nav-inner').attr('aria-expanded', 'true');
 
-    
+        $('.nav-inner').attr('aria-expanded', 'true');
+
     } else {
-        
         $('.nav-inner').attr('aria-expanded', 'false');
-        }
+    }
 
-        
+
+
 });
