@@ -310,11 +310,21 @@ align-items: center;
 color: white;
 text-shadow: 0px 1px 10px var(--strong-text-color);
 
+}
+/* end of the media query making text go in the pic on desktop but drop out on mobile view*/
 
-    
-}/* end of the media query making text go in the pic on desktop but drop out on mobile view*/
 
+/*grids    this is only for the desktop  version */
+@media screen and (min-width: 800px) { 
 
+.content-area-grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+     
+}
+
+}
 
 
 
