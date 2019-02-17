@@ -101,6 +101,7 @@ h4 {
 
 a{ 
     color: var(--link-color);
+    transition: var(--transition-time);
 
 }
 
@@ -228,6 +229,7 @@ border-bottom: 1px solid var(--border-color);
 
 .nav-inner{
     overflow: hidden;
+    transition: var(--transition-time);
 }
 
 .nav-inner[aria-expanded="false"] {
