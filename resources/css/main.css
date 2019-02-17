@@ -323,11 +323,29 @@ text-shadow: 0px 1px 10px var(--strong-text-color);
     justify-content: space-between;
      
 }
-
 }
 
 
+    /* image gallery -.*/
 
+
+.image-gallery ul{ 
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+
+}
+.image-gallery li {
+    float: left;
+    max-width: 250px;
+    margin: 10px;
+    
+
+
+}
+
+}
 
 
 
