@@ -171,10 +171,40 @@ header .layout-wide {
     padding-bottom: var(--padder);
     background-color: var(--alternative-bg-color);
     color: var(--alternative-text-color);
+
     border: none;
     border-top: 1px solid black;
 }
+
+
+.nav-inner ul { 
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+
+.nav-inner li{
+    text-align: center;
+}
+
+.nav-inner a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--alternative-text-color);
+    padding-top: var(--padder);
+    padding-bottom: var(--padder);
+
+display: block;
+border-bottom: 1px solid (--border-color);
+/*--code needs correction above to get the white line -*/
+}
+
+
+
+
 /*-------------------------FOOTER*/
+
+
 footer {
     background-color: var(--alternative-bg-color);
 }
