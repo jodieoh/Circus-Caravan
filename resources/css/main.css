@@ -75,6 +75,11 @@ img {
     max-width: 100%;
 }
 
+iframe {
+
+    max-width: 100%;
+
+}
 
 
 /* --------------------- HEADINGS AND TYPE */
@@ -340,16 +345,45 @@ text-shadow: 0px 1px 10px var(--strong-text-color);
     float: left;
     max-width: 250px;
     margin: 10px;
-    
+
 
 
 }
 
 }
+/*contact details*/
+address { font-style: normal;
+}
+
+/*animations keyframes sets up animation - we have created the animation, called fade in */
+
+/*@keyframes fadein {
+ 0% {
+     opacity: 0; 
+     }
+
+100% {
+    OPACITY : 1;
+}}
+
+body {
+    animation-name: fadein;
+    animation-duration: 10s;
+}*/
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.logo-wrapper a:hover img{
+animation-name: spin;
+animation-duration: 0.9s;
+animation-iteration-count: infinite;
 
 
 
-
+}
 
 
 
