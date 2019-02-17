@@ -150,12 +150,28 @@ header {
 
 header .layout-wide { 
     overflow: hidden;
+    margin-bottom: 0;
 }
 
 
 
 /* ------------------------NAVIGATION*/
 
+.navigation { 
+    background-color: var(--alternative-bg-color);
+}
+
+
+.nav-prompt { 
+
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: var(--padder);
+    padding-bottom: var(--padder);
+    background-color: var(--alternative-bg-color);
+    color: var(--alternative-text-color)
+}
 /*-------------------------FOOTER*/
 footer {
     background-color: var(--alternative-bg-color);
