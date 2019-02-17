@@ -195,12 +195,36 @@ header .layout-wide {
     padding-bottom: var(--padder);
 
 display: block;
-border-bottom: 1px solid (--border-color);
+border-bottom: 1px solid var(--border-color);
 /*--code needs correction above to get the white line -*/
 }
 
+@media screen and (min-width: 800px) {
 
+    .nav-prompt {
+        display: none;
 
+    }
+     .navigation { 
+         padding-top: var(--spacer);
+         padding-bottom: var(--spacer)
+     
+    }
+
+    .nav-inner ul { 
+         display: flex;
+         justify-content: space-between;
+
+}
+ .nav-inner {
+     margin-bottom: 0;
+ }
+
+.nav-inner a {
+    border-bottom: 2px solid transparent;
+
+}
+}
 
 /*-------------------------FOOTER*/
 
